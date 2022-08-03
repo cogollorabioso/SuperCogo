@@ -1,0 +1,94 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+.titulo{
+    background-color: greenyellow;
+}  
+
+.h4{
+    background-color: coral;
+}
+
+.noticia__titulo{
+color: red;
+}
+
+.noticia__parrafo {
+        background: blue;
+        text-align: center;
+        border: black 5px solid;
+        grid-column-start: 1; 
+        grid-column-end: 5; 
+        grid-row-start: 1; 
+        grid-row-end: 3;
+      }
+
+
+.pro1{
+    height: 200px;
+}
+
+.pro2{
+    height: 200px;
+}
+
+.pro3{
+    height: 200px;
+}
+
+.pro4{
+    height: 200px;
+}
+
+.pro5{
+    height: 200px;
+}
+
+.titulo{
+    color:red;
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulo{
+
+    color:red;
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+    background-image:url(../images/OIP.jpg);
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ 
+ 
+
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+
+
+  
+@media (max-width:495px) {
+  #container { 
+    width: 200px; 
+    background-color : red;  
+  }
+}
+  
+
+
+
